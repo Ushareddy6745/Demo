@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: cursive;
+        }
+        .div{
+            transform: translate(120%);
+            position: fixed;
+            text-align: center;
+        }
+a{
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+}
+.section1{
+    background-image: url(./img1.avif);
+ background-size:cover;
+ background-position: center;
+ background-attachment:fixed;
+
+   display: flex;
+   justify-content: center;
+   padding: 100px;
+}
+
+.div1{
+    background-color: rgb(255, 255, 255,0.7); 
+    display: flex;
+   width: 1200px;
+   justify-content: center;
+   align-items: center;
+   padding: 40px;
+   border-radius: 10px;
+}
+.text1{
+    margin-left: 40px;
+}
+img{
+    border-radius: 10px;
+}
+.section2{
+    background-image: url(./img3.avif);
+ background-size:cover;
+ background-position: center;
+ background-attachment:fixed;
+   display: flex;
+   justify-content: center;
+   padding: 100px;
+}
+
+.div2{
+    background-color: rgb(255, 255, 255,0.7); 
+    display: flex;
+    flex-direction: row-reverse;
+   width: 1200px;
+   justify-content: center;
+   align-items: center;
+   padding: 40px;
+   border-radius: 10px;
+}
+.text2{
+    margin-right: 40px;
+}
+.section3{
+    background-image: url(./img4.avif);
+ background-size:cover;
+ background-position: center;
+ background-attachment:fixed;
+
+   display: flex;
+   justify-content: center;
+   padding: 100px;
+}
+
+.text3{
+    margin-left: 40px;
+}
+footer{
+    background-color: rgb(57, 57, 57);
+    color:white;
+    text-align: center;
+    padding: 20px;
+ }
+  
+</style>
+</head>
+<body>
+    <div class="div">
+    <h1>Adorable Puppies</h1>
+    <div class="nav">
+        <a href="#Playful Puppies">Playful Pups</a>
+        <a href="#Sleepy Puppies">Sleepy Pups</a>
+        <a href="#Curious Puppies">Curious Pups</a>
+   </div>
+</div>
+   <div class="section1" >
+    <div class="div1">
+    <div>
+        <img src="./img1.avif" height="400px" width="550px" >
+        </div>
+    <div  class="text1" id="Playful Puppies">
+        <h1>Playful Puppies</h1>
+         <p>Puppies love to play! It's how they learn about the world and develop important skills.</p>
+   </div>
+   </div>
+   </div>
+   <div class="section2">
+    <div class="div2">
+        <div>
+            <img src="./img4.avif" height="400px" width="550px" >
+        </div>
+        <div class="text2"  id="Sleepy Puppies">
+            <h1>Sleepy Puppies</h1>
+            <p>Puppies need lot of sleep to grow big and strong.They can Sleep upto 20<br> hours a day!</p>
+        </div>
+    </div>
+   </div>
+   <div class="section3">
+    <div class="div1">
+        <div>
+            <img src="./img3.avif" height="400px" width="550px">
+        </div>
+        <div class="text3" id="Curious Puppies">
+            <h1>Curious Puppies</h1>
+            <p>Puppies are naturally curious and love to explore their surroundings.This help them learn and grow!
+            </p>
+        </div>
+    </div>
+   </div>
+   <footer>
+    &copy;2024 Puppy Parallax Demo
+</footer>
+</body>
+</html>
